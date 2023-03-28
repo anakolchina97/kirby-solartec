@@ -1,7 +1,7 @@
 title: Home
 icon: 🏠
+
 sections:
   pages:
-    label: Block
+    label: Blocks
     type: pages
-    template: sliders

@@ -1,0 +1,33 @@
+title: About
+icon: 🏠
+
+columns:
+  - width: 1/2
+    sections:
+      info:
+        type: fields
+        fields:
+          subtitle:
+            label: Subtitle
+            type: text
+          titletext:
+            label: Title Text
+            type: text
+          text:
+            label: Text
+            type: text
+          list:
+            type: list
+            marks:
+              - bold
+              - italic
+              - strike
+
+  - width: 1/2
+    sections:
+      sections:
+        type: files
+        files:
+          label: Slider
+          layout: cards
+          type: files

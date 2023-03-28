@@ -1,9 +1,9 @@
 <?php
   return function ($page) {
-    $related = $page->related()->toPages();
+    $children = $page->children();
 
     return [
-      'related' => $related,
+      'children' => $children,
     ];
   }
 ?>
