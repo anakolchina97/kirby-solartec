@@ -1,0 +1,16 @@
+title: Slider
+
+accept: image/*
+
+fields:
+  title:
+    label: "Slider title"
+    type: text
+    width: 1/2
+  text:
+    label: "Slider text"
+    type: text
+    width: 1/2
+  alt:
+    type: text
+    width: 1/2

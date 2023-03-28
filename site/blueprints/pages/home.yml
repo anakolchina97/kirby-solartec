@@ -1,0 +1,10 @@
+title: Home
+icon: 🏠
+
+columns:
+  sidebar:
+    sections:
+      files:
+        label: Slider
+        layout: cards
+        type: files
