@@ -1,14 +1,25 @@
 Title: Happy Customers
+
 ----
-TitleCard: Happy Customers
+
+Titlecard: Happy Customers
+
 ----
+
 Text: Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+
 ----
+
 Count: 3453
+
 ----
+
 Icon: fa fa-users text-white
+
 ----
+
 Delay: 0.1s
+
 ----
 
 Uuid: ap9fxnXyUPayImgq

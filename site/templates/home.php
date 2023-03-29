@@ -5,9 +5,8 @@
     <?php snippet('navbar') ?>
     
     <?php snippet('home/carousel') ?>
-    <?php snippet('home/features') ?>
+    <?php snippet('features') ?>
     <?php snippet('home/about') ?>
-
     <!-- Service Start -->
     <div class="container-xxl py-5">
         <div class="container">

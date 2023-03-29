@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-  <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+  <a href="/" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
     <h2 class="m-0 text-primary">Solartec</h2>
   </a>
   <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -16,18 +16,15 @@
           <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
           <div class="dropdown-menu bg-light m-0">
             <?php foreach ($site->children()->find('dropdown')->children()->listed() as $item): ?>
-              <a href="<?= $item->url() ?>" class="dropdown-item <?php e($item->isActive(), ' active') ?> ">
+              <a href="<?= $item->url() ?>" class="dropdown-item <?php e($item->isActive(), ' active') ?>">
                 <?= $item->title() ?>
               </a>
             <?php endforeach; ?>
-            <!-- <a href="/feature" class="dropdown-item">Feature</a>
-            <a href="quote.html" class="dropdown-item">Free Quote</a>
-            <a href="team.html" class="dropdown-item">Our Team</a>
-            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-            <a href="404.html" class="dropdown-item">404 Page</a> -->
           </div>
       </div>
-      <a href="/contact" class="nav-item nav-link">Contact</a>
+      <?php foreach ($site->children()->find('aftermenu')->children()->listed() as $item): ?>
+        <a href="<?= $item->url() ?>" class="nav-item nav-link <?php e($item->isActive(), ' active') ?>"><?= $item->title() ?></a>
+      <?php endforeach; ?>
     </div>
     <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
   </div>
