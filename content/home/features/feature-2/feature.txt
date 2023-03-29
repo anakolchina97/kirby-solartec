@@ -1,0 +1,25 @@
+Title: Project Done
+
+----
+
+Titlecard: Project Done
+
+----
+
+Text: Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
+
+----
+
+Count: 4234
+
+----
+
+Icon: fa fa-check text-white
+
+----
+
+Delay: 0.3s
+
+----
+
+Uuid: ap9fxnXyUPayImgq

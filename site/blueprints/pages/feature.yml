@@ -1,0 +1,23 @@
+title: Feature
+
+columns:
+  - width: 1/1
+    sections:
+      info:
+        type: fields
+        fields:
+          titleCard:
+            label: Title
+            type: text
+          text:
+            label: Text
+            type: text
+          count:
+            label: Count
+            type: number
+          icon:
+            label: Icon
+            type: text
+          delay:
+            label: Delay Animation
+            type: text
