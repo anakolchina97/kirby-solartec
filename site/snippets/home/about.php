@@ -11,9 +11,9 @@
                   <h6 class="text-primary"><?= $children->find('about')->subtitle() ?></h6>
                   <h1 class="mb-4"><?= $children->find('about')->titletext() ?></h1>
                   <p><?= $children->find('about')->text() ?></p>
-                  <p><i class="fa fa-check-circle text-primary me-3"></i>Diam dolor diam ipsum</p>
-                  <p><i class="fa fa-check-circle text-primary me-3"></i>Aliqu diam amet diam et eos</p>
-                  <p><i class="fa fa-check-circle text-primary me-3"></i>Tempor erat elitr rebum at clita</p>
+                  <?php foreach($children->find('about')->list() as $list): ?>
+                    <?= $list ?>
+                  <?php endforeach ?>
                   <a href="" class="btn btn-primary rounded-pill py-3 px-5 mt-3">Explore More</a>
               </div>
           </div>
