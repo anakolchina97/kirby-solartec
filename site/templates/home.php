@@ -6,7 +6,7 @@
     
     <?php snippet('home/carousel') ?>
     <?php snippet('features') ?>
-    <?php snippet('home/about') ?>
+    <?php snippet('about') ?>
     <!-- Service Start -->
     <div class="container-xxl py-5">
         <div class="container">
