@@ -1,9 +1,10 @@
 <?php snippet('head') ?>
+
 <body>
     <?php snippet('spinner') ?>
     <?php snippet('topbar') ?>
     <?php snippet('navbar') ?>
-    
+
     <?php snippet('home/carousel') ?>
     <?php snippet('features') ?>
     <?php snippet('about') ?>
