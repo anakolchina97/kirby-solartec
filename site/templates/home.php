@@ -438,5 +438,3 @@
     </div>
     <?php snippet('footer') ?>
 </body>
-
-</html>

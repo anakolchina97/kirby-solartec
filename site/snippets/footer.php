@@ -89,3 +89,4 @@
 
 <!-- Template Javascript -->
 <?= js('assets/js/main.js') ?>
+</html>
