@@ -1,0 +1,15 @@
+title: Snippets Services
+
+sections:
+  info:
+    type: fields
+    fields:
+      titleText:
+        label: Title
+        type: text
+      subtitle:
+        label: Subtitle
+        type: text
+  pages:
+    label: Cards
+    type: pages

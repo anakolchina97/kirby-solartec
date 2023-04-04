@@ -1,0 +1,25 @@
+Title: Solar Panels
+
+----
+
+Titletext: Solar Panels
+
+----
+
+Text: Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
+
+----
+
+Link: http://a0596957.xsph.ru/solartec/
+
+----
+
+Icon: fa fa-solar-panel fa-3x
+
+----
+
+Delay: 0.1s
+
+----
+
+Uuid: Tx5Hi18hVisnCBMq

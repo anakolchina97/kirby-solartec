@@ -1,23 +1,26 @@
 <div class="container-xxl py-5">
   <div class="container">
     <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-      <h6 class="text-primary">Our Services</h6>
-      <h1 class="mb-4">We Are Pioneers In The World Of Renewable Energy</h1>
+      <h6 class="text-primary"><?= $site->find('snippets')->find('services')->subtitle() ?></h6>
+      <h1 class="mb-4"><?= $site->find('snippets')->find('services')->titleText() ?></h1>
     </div>
     <div class="row g-4">
-      <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="service-item rounded overflow-hidden">
-          <img class="img-fluid" src="assets/img/img-600x400-1.jpg" alt="">
-          <div class="position-relative p-4 pt-0">
-            <div class="service-icon">
-              <i class="fa fa-solar-panel fa-3x"></i>
+      <?php foreach ($site->find('snippets')->find('services')->children() as $service) : ?>
+        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="<?= $service->delay() ?>">
+          <div class="service-item rounded overflow-hidden">
+            <img class="img-fluid" src="<?= $service->images() ?>" alt="<?= image($service->images())->alt() ?>">
+            <div class="position-relative p-4 pt-0">
+              <div class="service-icon">
+                <i class="<?= $service->icon() ?>"></i>
+              </div>
+              <h4 class="mb-3"><?= $service->titleText() ?></h4>
+              <p><?= $service->text() ?></p>
+              <a class="small fw-medium" href="<?= $service->link() ?>" target="_blank">Read More<i class="fa fa-arrow-right ms-2"></i></a>
             </div>
-            <h4 class="mb-3">Solar Panels</h4>
-            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-            <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
           </div>
         </div>
-      </div>
+      <?php endforeach ?>
+      <!--
       <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
         <div class="service-item rounded overflow-hidden">
           <img class="img-fluid" src="assets/img/img-600x400-2.jpg" alt="">
@@ -82,7 +85,7 @@
             <a class="small fw-medium" href="">Read More<i class="fa fa-arrow-right ms-2"></i></a>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>

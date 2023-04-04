@@ -1,0 +1,33 @@
+title: Snippets Service
+icon: 🏠
+
+columns:
+  - width: 1/2
+    sections:
+      info:
+        type: fields
+        fields:
+          titletext:
+            label: Title Text
+            type: text
+          text:
+            label: Text
+            type: text
+          link:
+            label: Link
+            type: url
+          icon:
+            label: Icon
+            type: text
+          delay:
+            label: Delay
+            type: text
+
+  - width: 1/2
+    sections:
+      sections:
+        type: files
+        files:
+          label: Slider
+          layout: cards
+          type: files
