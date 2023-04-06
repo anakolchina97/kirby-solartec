@@ -1,0 +1,16 @@
+title: Snippets Teams
+
+sections:
+  info:
+    type: fields
+    fields:
+      titleText:
+        label: Title
+        type: text
+      subtitle:
+        label: Subtitle
+        type: text
+  pages:
+    label: People
+    type: pages
+    templates: snippets-team

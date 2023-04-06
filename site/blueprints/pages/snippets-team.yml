@@ -1,0 +1,36 @@
+title: Snippets Team
+icon: 🏠
+
+columns:
+  - width: 1/2
+    sections:
+      info:
+        type: fields
+        fields:
+          name:
+            label: Name
+            type: text
+          position:
+            label: Position
+            type: text
+          facebook:
+            label: Facebook Link
+            type: url
+          twitter:
+            label: Twitter Link
+            type: url
+          instagram:
+            label: Instagram Link
+            type: url
+          delay:
+            label: Delay
+            type: text
+
+  - width: 1/2
+    sections:
+      sections:
+        type: files
+        files:
+          label: Slider
+          layout: cards
+          type: files
