@@ -2,7 +2,7 @@ Title: Hydropower Plants
 
 ----
 
-Titletext: Solar Panels
+Titletext: Hydropower Plants
 
 ----
 
@@ -14,7 +14,7 @@ Link:
 
 ----
 
-Icon: fa fa-solar-panel fa-3x
+Icon: fa fa-lightbulb fa-3x
 
 ----
 

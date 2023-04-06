@@ -1,0 +1,25 @@
+Title: Wind Turbines
+
+----
+
+Titletext: Wind Turbines
+
+----
+
+Text: Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
+
+----
+
+Link: http://a0596957.xsph.ru/solartec/
+
+----
+
+Icon: fa fa-wind fa-3x
+
+----
+
+Delay: 0.3s
+
+----
+
+Uuid: qSXZR0j1jd5cQM6f
