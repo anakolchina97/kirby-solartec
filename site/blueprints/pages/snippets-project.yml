@@ -16,7 +16,13 @@ columns:
           link:
             label: Link
             type: url
-
+          category:
+            label: Category
+            type: select
+            options:
+              first: first
+              second: second
+              third: third
   - width: 1/2
     sections:
       sections:

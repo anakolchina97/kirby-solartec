@@ -13,3 +13,4 @@ sections:
   pages:
     label: Cards
     type: pages
+    templates: snippets-project
