@@ -1,0 +1,27 @@
+title: Snippets Project
+icon: 🏠
+
+columns:
+  - width: 1/2
+    sections:
+      info:
+        type: fields
+        fields:
+          titletext:
+            label: Title
+            type: text
+          text:
+            label: Text
+            type: text
+          link:
+            label: Link
+            type: url
+
+  - width: 1/2
+    sections:
+      sections:
+        type: files
+        files:
+          label: Slider
+          layout: cards
+          type: files

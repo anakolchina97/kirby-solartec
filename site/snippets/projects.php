@@ -1,8 +1,8 @@
 <div class="container-xxl py-5">
   <div class="container">
     <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-      <h6 class="text-primary">Our Projects</h6>
-      <h1 class="mb-4">Visit Our Latest Solar And Renewable Energy Projects</h1>
+      <h6 class="text-primary"><?= $site->find('snippets')->find('projects')->subtitle() ?></h6>
+      <h1 class="mb-4"><?= $site->find('snippets')->find('projects')->titleText() ?></h1>
     </div>
     <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
       <div class="col-12 text-center">
@@ -15,21 +15,24 @@
       </div>
     </div>
     <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.5s">
-      <div class="col-lg-4 col-md-6 portfolio-item first">
-        <div class="portfolio-img rounded overflow-hidden">
-          <img class="img-fluid" src="assets/img/img-600x400-6.jpg" alt="">
-          <div class="portfolio-btn">
-            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="assets/img/img-600x400-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+      <?php foreach ($site->find('snippets')->find('projects')->children() as $project) : ?>
+        <div class="col-lg-4 col-md-6 portfolio-item <?= $project->category() ?><">
+          <div class="portfolio-img rounded overflow-hidden">
+            <img class="img-fluid" src="<?= $project->images() ?>" alt="<?= image($project->images())->alt() ?>">
+            <div class="portfolio-btn">
+              <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="<?= $project->images() ?>" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+              <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="/"><i class="fa fa-link"></i></a>
+            </div>
+          </div>
+          <div class="pt-3">
+            <p class="text-primary mb-0"><?= $project->titleText() ?></p>
+            <hr class="text-primary w-25 my-2">
+            <h5 class="lh-base"><?= $project->text() ?></h5>
           </div>
         </div>
-        <div class="pt-3">
-          <p class="text-primary mb-0">Solar Panels</p>
-          <hr class="text-primary w-25 my-2">
-          <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item second">
+      <?php endforeach ?>
+
+      <!-- <div class="col-lg-4 col-md-6 portfolio-item second">
         <div class="portfolio-img rounded overflow-hidden">
           <img class="img-fluid" src="assets/img/img-600x400-5.jpg" alt="">
           <div class="portfolio-btn">
@@ -98,7 +101,7 @@
           <hr class="text-primary w-25 my-2">
           <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
