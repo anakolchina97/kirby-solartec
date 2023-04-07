@@ -8,5 +8,3 @@
     <?php snippet('quote') ?>
     <?php snippet('footer') ?>
 </body>
-
-</html>
