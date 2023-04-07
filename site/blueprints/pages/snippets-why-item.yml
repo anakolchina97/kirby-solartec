@@ -1,0 +1,15 @@
+title: Snippets Why Item
+
+sections:
+  info:
+    type: fields
+    fields:
+      subtitle:
+        label: Subtitle
+        type: text
+      titleText:
+        label: Title
+        type: text
+      icon:
+        label: Icon
+        type: text

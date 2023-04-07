@@ -1,0 +1,30 @@
+title: Snippets Why
+
+columns:
+  - width: 1/2
+    sections:
+      info:
+        type: fields
+        fields:
+          titleText:
+            label: Title
+            type: text
+          subtitle:
+            label: Subtitle
+            type: text
+          text:
+            label: Text
+            type: text
+      pages:
+        label: Items
+        type: pages
+        templates: snippets-why-item
+  - width: 1/2
+    sections:
+      img:
+        type: fields
+        fields:
+          files:
+            label: Img
+            layout: cards
+            type: files

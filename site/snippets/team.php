@@ -5,7 +5,13 @@
       <h1 class="mb-4"><?= $site->find('snippets')->find('teams')->titleText() ?></h1>
     </div>
     <div class="row g-4">
-      <?php foreach ($site->find('snippets')->find('teams')->children() as $team) : ?>
+      <?php $index = 0;
+      foreach ($site->find('snippets')->find('teams')->children() as $team) : $index++; ?>
+        <?php
+        if ($kirby->path() === '' and $index > 3) {
+          continue;
+        }
+        ?>
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
           <div class="team-item rounded overflow-hidden">
             <div class="d-flex">
@@ -17,7 +23,7 @@
               </div>
             </div>
             <div class="p-4">
-              <h5><?= $team->name() ?></h5>
+              <h5><?= $kirby->path() . $team->name() ?></h5>
               <span><?= $team->position() ?></span>
             </div>
           </div>

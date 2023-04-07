@@ -1,0 +1,29 @@
+Title: Full Name
+
+----
+
+Name: Full Name
+
+----
+
+Position: Designation
+
+----
+
+Facebook: https://www.facebook.com/
+
+----
+
+Twitter: https://twitter.com/
+
+----
+
+Instagram: https://www.instagram.com/
+
+----
+
+Delay: 0.3s
+
+----
+
+Uuid: YuMxIooUJqfxj4qK
