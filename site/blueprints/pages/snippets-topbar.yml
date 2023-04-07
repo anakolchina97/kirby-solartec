@@ -1,0 +1,19 @@
+title: Top Bar
+
+sections:
+  info:
+    type: fields
+    fields:
+      address:
+        label: Address
+        type: text
+      schedule:
+        label: Schedule
+        type: text
+      phone:
+        label: Phone
+        type: tel
+  pages:
+    label: Social
+    type: pages
+    templates: snippets-topbar-social

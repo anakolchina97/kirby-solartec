@@ -1,0 +1,12 @@
+title: Top Bar Social
+
+sections:
+  info:
+    type: fields
+    fields:
+      icon:
+        label: Icon
+        type: text
+      link:
+        label: Link
+        type: url

@@ -1,0 +1,13 @@
+Title: Instagram
+
+----
+
+Icon: fab fa-instagram
+
+----
+
+Link: http://twitter.com/
+
+----
+
+Uuid: RDYx27zT1XND7LzR
