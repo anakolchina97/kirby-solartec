@@ -7,7 +7,13 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <div class="navbar-nav ms-auto p-4 p-lg-0">
-      <?php foreach ($site->children()->listed() as $item) : ?>
+      <?php $index = 0;
+      foreach ($site->children()->listed() as $item) : $index++; ?>
+        <?php
+        if ($index > 4) {
+          break;
+        }
+        ?>
         <a href="<?= $item->url() ?>" class="nav-item nav-link <?php e($item->isActive(), ' active') ?> ">
           <?= $item->title() ?>
         </a>
@@ -15,14 +21,26 @@
       <div class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
         <div class="dropdown-menu bg-light m-0">
-          <?php foreach ($site->children()->find('dropdown')->children()->listed() as $item) : ?>
-            <a href="<?= str_replace('/dropdown', '', $item->url()) ?>" class="dropdown-item <?php e($item->isActive(), ' active') ?>">
+          <?php $index = 0;
+          foreach ($site->children()->listed() as $item) : $index++; ?>
+            <?php
+            if ($index < 5 or $index === 10) {
+              continue;
+            }
+            ?>
+            <a href="<?= $item->url() ?>" class="dropdown-item <?php e($item->isActive(), ' active') ?>">
               <?= $item->title() ?>
             </a>
           <?php endforeach; ?>
         </div>
       </div>
-      <?php foreach ($site->children()->find('aftermenu')->children()->listed() as $item) : ?>
+      <?php $index = 0;
+      foreach ($site->children()->listed() as $item) : $index++; ?>
+        <?php
+        if ($index < 10) {
+          continue;
+        }
+        ?>
         <a href="<?= $item->url() ?>" class="nav-item nav-link <?php e($item->isActive(), ' active') ?>"><?= $item->title() ?></a>
       <?php endforeach; ?>
     </div>
