@@ -2,4 +2,8 @@ Title: About
 
 ----
 
+TitleFooter: About Us
+
+----
+
 Uuid: QVmEf48m6D3JJ06D

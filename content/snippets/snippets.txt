@@ -2,4 +2,20 @@ Title: Snippets
 
 ----
 
+Address: 123 Street, New York, USA
+
+----
+
+Schedule: Mon - Fri : 09.00 AM - 09.00 PM
+
+----
+
+Phone: +012 345 6789
+
+----
+
+Email: info@example.com
+
+----
+
 Uuid: VEVO3lZ3JdIY1ROI

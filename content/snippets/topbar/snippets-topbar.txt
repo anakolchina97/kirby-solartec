@@ -2,16 +2,4 @@ Title: Top Bar
 
 ----
 
-Address: 123 Street, New York, USA
-
-----
-
-Schedule: Mon - Fri : 09.00 AM - 09.00 PM
-
-----
-
-Phone: +012 345 6789
-
-----
-
 Uuid: 58vtGHaTKZOAbJxo

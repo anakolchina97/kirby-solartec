@@ -23,25 +23,19 @@
         <div class="dropdown-menu bg-light m-0">
           <?php $index = 0;
           foreach ($site->children()->listed() as $item) : $index++; ?>
-            <?php
-            if ($index < 5 or $index === 10) {
-              continue;
-            }
-            ?>
-            <a href="<?= $item->url() ?>" class="dropdown-item <?php e($item->isActive(), ' active') ?>">
-              <?= $item->title() ?>
-            </a>
+            <?php if ($index > 5 && $index < 10) : ?>
+              <a href="<?= $item->url() ?>" class="dropdown-item <?php e($item->isActive(), ' active') ?>">
+                <?= $item->title() ?>
+              </a>
+            <?php endif ?>
           <?php endforeach; ?>
         </div>
       </div>
       <?php $index = 0;
       foreach ($site->children()->listed() as $item) : $index++; ?>
-        <?php
-        if ($index < 10) {
-          continue;
-        }
-        ?>
-        <a href="<?= $item->url() ?>" class="nav-item nav-link <?php e($item->isActive(), ' active') ?>"><?= $item->title() ?></a>
+        <?php if ($index === 10) : ?>
+          <a href="<?= $item->url() ?>" class="nav-item nav-link <?php e($item->isActive(), ' active') ?>"><?= $item->title() ?></a>
+        <?php endif ?>
       <?php endforeach; ?>
     </div>
     <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>

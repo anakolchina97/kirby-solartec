@@ -1,0 +1,25 @@
+title: Snippets
+
+columns:
+  - width: 1/2
+    sections:
+      info:
+        type: fields
+        fields:
+          address:
+            label: Address
+            type: text
+          schedule:
+            label: Schedule
+            type: text
+          phone:
+            label: Phone
+            type: tel
+          email:
+            label: E-mail
+            type: email
+  - width: 1/2
+    sections:
+      pages:
+        label: Snippet
+        type: pages
