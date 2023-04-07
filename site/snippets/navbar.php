@@ -9,21 +9,18 @@
     <div class="navbar-nav ms-auto p-4 p-lg-0">
       <?php $index = 0;
       foreach ($site->children()->listed() as $item) : $index++; ?>
-        <?php
-        if ($index > 4) {
-          break;
-        }
-        ?>
-        <a href="<?= $item->url() ?>" class="nav-item nav-link <?php e($item->isActive(), ' active') ?> ">
-          <?= $item->title() ?>
-        </a>
+        <?php if ($index <= 4) : ?>
+          <a href="<?= $item->url() ?>" class="nav-item nav-link <?php e($item->isActive(), ' active') ?> ">
+            <?= $item->title() ?>
+          </a>
+        <?php endif ?>
       <?php endforeach; ?>
       <div class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
         <div class="dropdown-menu bg-light m-0">
           <?php $index = 0;
           foreach ($site->children()->listed() as $item) : $index++; ?>
-            <?php if ($index > 5 && $index < 10) : ?>
+            <?php if ($index >= 5 && $index < 10) : ?>
               <a href="<?= $item->url() ?>" class="dropdown-item <?php e($item->isActive(), ' active') ?>">
                 <?= $item->title() ?>
               </a>
