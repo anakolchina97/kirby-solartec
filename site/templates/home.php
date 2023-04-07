@@ -12,6 +12,6 @@
     <?php snippet('projects') ?>
     <?php snippet('quote') ?>
     <?php snippet('team') ?>
-    <?php snippet('slider') ?>
+    <?php snippet('testimonial') ?>
     <?php snippet('footer') ?>
 </body>

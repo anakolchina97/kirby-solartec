@@ -7,6 +7,6 @@
     <?php snippet('header') ?>
     <?php snippet('services') ?>
     <?php snippet('why') ?>
-    <?php snippet('slider') ?>
+    <?php snippet('testimonial') ?>
     <?php snippet('footer') ?>
 </body>

@@ -1,0 +1,25 @@
+title: Snippets Testimonial Item
+
+columns:
+  - width: 1/2
+    sections:
+      info:
+        type: fields
+        fields:
+          text:
+            label: Text
+            type: text
+          name:
+            label: Name
+            type: text
+          position:
+            label: Position
+            type: text
+
+  - width: 1/2
+    sections:
+      photo:
+        type: files
+        files:
+          layout: cards
+          type: files

@@ -5,6 +5,6 @@
     <?php snippet('topbar') ?>
     <?php snippet('navbar') ?>
     <?php snippet('header') ?>
-    <?php snippet('slider') ?>
+    <?php snippet('testimonial') ?>
     <?php snippet('footer') ?>
 </body>
