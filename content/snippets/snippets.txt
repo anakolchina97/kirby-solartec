@@ -18,4 +18,12 @@ Email: info@example.com
 
 ----
 
+Map: 
+
+----
+
+Mapzoom: 15
+
+----
+
 Uuid: VEVO3lZ3JdIY1ROI
