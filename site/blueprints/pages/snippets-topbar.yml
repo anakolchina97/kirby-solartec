@@ -1,7 +1,13 @@
 title: Top Bar
 
-sections:
-  pages:
+fields:
+  social:
+    type: structure
     label: Social
-    type: pages
-    templates: snippets-topbar-social
+    fields:
+      icon:
+        label: Icon
+        type: text
+      link:
+        label: Link
+        type: url

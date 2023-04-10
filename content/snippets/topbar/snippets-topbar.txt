@@ -2,4 +2,21 @@ Title: Top Bar
 
 ----
 
+Social:
+
+- 
+  icon: fab fa-facebook-f
+  link: https://www.facebook.com/
+- 
+  icon: fab fa-twitter
+  link: http://twitter.com/
+- 
+  icon: fab fa-linkedin-in
+  link: https://www.linkedin.com/
+- 
+  icon: fab fa-instagram
+  link: https://www.instagram.com/
+
+----
+
 Uuid: 58vtGHaTKZOAbJxo

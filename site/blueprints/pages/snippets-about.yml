@@ -10,7 +10,7 @@ columns:
           subtitle:
             label: Subtitle
             type: text
-          titletext:
+          titleText:
             label: Title Text
             type: text
           text:
@@ -22,7 +22,6 @@ columns:
               - bold
               - italic
               - strike
-
   - width: 1/2
     sections:
       sections:

@@ -3,14 +3,20 @@ title: About
 columns:
   - width: 1/1
     sections:
-      info:
+      header:
         type: fields
         fields:
+          pageTitleHeader:
+            label: Header
+            type: headline
           titlePage:
-            label: Title Page
+            label: Title
             type: text
   - width: 1/1
     fields:
+      pageTitleFeatures:
+        label: Features
+        type: headline
       features:
         type: structure
         label: Features
@@ -30,3 +36,30 @@ columns:
           delay:
             label: Delay Animation
             type: text
+  - width: 1/1
+    sections:
+      about:
+        type: fields
+        fields:
+          pageTitleAbout:
+            label: About
+            type: headline
+          aboutSubtitle:
+            label: Subtitle
+            type: text
+          aboutTitle:
+            label: Title
+            type: text
+          aboutText:
+            label: Text
+            type: text
+          aboutList:
+            label: List
+            type: list
+            marks:
+              - bold
+              - italic
+              - strike
+          aboutFiles:
+            label: Img
+            type: files

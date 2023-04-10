@@ -43,6 +43,26 @@ Features:
 
 ----
 
+Aboutsubtitle: About
+
+----
+
+Abouttitle: 25+ Years Experience In Solar & Renewable Energy Industry
+
+----
+
+Abouttext: Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet
+
+----
+
+Aboutlist: <ul><li>Diam dolor diam ipsum</li><li>Aliqu diam amet diam et eos</li><li>Tempor erat elitr rebum at clita</li></ul>
+
+----
+
+Aboutfiles: - file://rUfCFJNxKhcMIVB6
+
+----
+
 Titlefooter: About Us
 
 ----

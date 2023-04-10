@@ -17,11 +17,11 @@
       </div>
       <div class="h-100 d-inline-flex align-items-center mx-n2">
         <?php
-        $numItems = count($site->find('snippets')->find('topbar')->children());
+        $numItems = count($site->find('snippets')->find('topbar')->social()->toStructure());
         $i = 0;
         ?>
-        <?php foreach ($site->find('snippets')->find('topbar')->children() as $topbar) : ?>
-          <a class="btn btn-square btn-link rounded-0 <?php echo ++$i !== $numItems ? 'border-0 border-end border-secondary' : ''; ?>" href="<?= $topbar->link() ?>"><i class="<?= $topbar->icon() ?>"></i></a>
+        <?php foreach ($site->find('snippets')->find('topbar')->social()->toStructure() as $icon) : ?>
+          <a class="btn btn-square btn-link rounded-0 <?php echo ++$i !== $numItems ? 'border-0 border-end border-secondary' : ''; ?>" href="<?= $icon->link() ?>"><i class="<?= $icon->icon() ?>"></i></a>
         <?php endforeach ?>
       </div>
     </div>
