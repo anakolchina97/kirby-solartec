@@ -21,11 +21,6 @@
                         <a class="btn btn-link" href="<?= $item->url() ?>"><?= $item->titleFooter() ?></a>
                     <?php endif ?>
                 <?php endforeach; ?>
-                <!-- <a class="btn btn-link" href="/about">About Us</a>
-                <a class="btn btn-link" href="/contact">Contact Us</a>
-                <a class="btn btn-link" href="/services">Our Services</a>
-                <a class="btn btn-link" href="/">Terms & Condition</a>
-                <a class="btn btn-link" href="/">Support</a> -->
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-white mb-4">Project Gallery</h5>

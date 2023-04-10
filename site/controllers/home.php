@@ -1,9 +1,7 @@
 <?php
-  return function ($page) {
-    $children = $page->children();
-
-    return [
-      'children' => $children,
-    ];
-  }
-?>
+return function ($page) {
+  $children = $page->children();
+  return [
+    'children' => $children,
+  ];
+};

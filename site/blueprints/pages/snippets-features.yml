@@ -1,0 +1,22 @@
+title: Feature
+
+fields:
+  info:
+    type: structure
+    label: Items
+    fields:
+      titleCard:
+        label: Title
+        type: text
+      text:
+        label: Text
+        type: text
+      count:
+        label: Count
+        type: number
+      icon:
+        label: Icon
+        type: text
+      delay:
+        label: Delay Animation
+        type: text
