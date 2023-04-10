@@ -10,7 +10,25 @@ sections:
       subtitle:
         label: Subtitle
         type: text
-  pages:
-    label: People
-    type: pages
-    templates: snippets-team
+      team:
+        type: structure
+        label: Team
+        fields:
+          name:
+            label: Name
+            type: text
+          position:
+            label: Position
+            type: text
+          facebook:
+            label: Facebook Link
+            type: url
+          twitter:
+            label: Twitter Link
+            type: url
+          instagram:
+            label: Instagram Link
+            type: url
+          delay:
+            label: Delay
+            type: text
