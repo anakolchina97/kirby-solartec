@@ -2,7 +2,48 @@ Title: About
 
 ----
 
-TitleFooter: About Us
+Titlepage: About Us
+
+----
+
+Features:
+
+- 
+  titlecard: Happy Customers About
+  text: >
+    Tempor erat elitr rebum at clita. Diam
+    dolor diam ipsum sit
+  count: 3453
+  icon: fa fa-users text-white
+  delay: 0.1s
+- 
+  titlecard: Project Done
+  text: >
+    Tempor erat elitr rebum at clita. Diam
+    dolor diam ipsum sit
+  count: 4234
+  icon: fa fa-check text-white
+  delay: 0.3s
+- 
+  titlecard: Awards Win
+  text: >
+    Tempor erat elitr rebum at clita. Diam
+    dolor diam ipsum sit
+  count: 3123
+  icon: fa fa-award text-white
+  delay: 0.5s
+- 
+  titlecard: Expert Workers
+  text: >
+    Tempor erat elitr rebum at clita. Diam
+    dolor diam ipsum sit
+  count: 1831
+  icon: fa fa-users-cog text-white
+  delay: 0.7s
+
+----
+
+Titlefooter: About Us
 
 ----
 

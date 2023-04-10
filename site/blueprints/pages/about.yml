@@ -1,0 +1,32 @@
+title: About
+
+columns:
+  - width: 1/1
+    sections:
+      info:
+        type: fields
+        fields:
+          titlePage:
+            label: Title Page
+            type: text
+  - width: 1/1
+    fields:
+      features:
+        type: structure
+        label: Features
+        fields:
+          titleCard:
+            label: Title
+            type: text
+          text:
+            label: Text
+            type: text
+          count:
+            label: Count
+            type: number
+          icon:
+            label: Icon
+            type: text
+          delay:
+            label: Delay Animation
+            type: text

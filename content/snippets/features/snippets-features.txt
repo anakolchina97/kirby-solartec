@@ -2,7 +2,7 @@ Title: Features
 
 ----
 
-Info:
+Features:
 
 - 
   titlecard: Happy Customers
