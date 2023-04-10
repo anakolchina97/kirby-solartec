@@ -63,3 +63,38 @@ columns:
           aboutFiles:
             label: Img
             type: files
+            disabled: true
+
+  - width: 1/1
+    sections:
+      team:
+        type: fields
+        fields:
+          pageTitleTeam:
+            label: Team
+            type: headline
+          teamSubtitle:
+            label: Subtitle
+            type: text
+          teamTitle:
+            label: Title
+            type: text
+          members:
+            type: structure
+            label: Members
+            fields:
+              titleCard:
+                label: Title
+                type: text
+              text:
+                label: Text
+                type: text
+              count:
+                label: Count
+                type: number
+              icon:
+                label: Icon
+                type: text
+              delay:
+                label: Delay Animation
+                type: text

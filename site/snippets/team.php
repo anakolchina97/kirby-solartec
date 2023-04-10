@@ -23,7 +23,7 @@
               </div>
             </div>
             <div class="p-4">
-              <h5><?= $kirby->path() . $team->name() ?></h5>
+              <h5><?= $team->name() ?></h5>
               <span><?= $team->position() ?></span>
             </div>
           </div>
