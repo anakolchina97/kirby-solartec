@@ -2,7 +2,76 @@ Title: Service
 
 ----
 
-TitleFooter: Our Services
+Titlepage: Service
+
+----
+
+Subtitleservices: Our Services 1
+
+----
+
+Services:
+
+- 
+  titletext: Solar Panels
+  text: >
+    Stet stet justo dolor sed duo. Ut clita
+    sea sit ipsum diam lorem diam.
+  delay: 0.1s
+  images:
+    - file://xVRctwmhhUbm2AMy
+  icon: fa fa-solar-panel fa-3x
+  link: http://a0596957.xsph.ru/solartec/
+
+----
+
+Aboutsubtitle: 
+
+----
+
+Abouttitle: 
+
+----
+
+Abouttext: 
+
+----
+
+Aboutlist: 
+
+----
+
+Aboutfiles: 
+
+----
+
+Teamsubtitle: 
+
+----
+
+Teamtitle: 
+
+----
+
+Members: 
+
+----
+
+Features:
+
+- 
+  titletext: Solar Panels 1
+  text: >
+    Stet stet justo dolor sed duo. Ut clita
+    sea sit ipsum diam lorem diam. 1
+  delay: ""
+  images: [ ]
+  icon: ""
+  link: ""
+
+----
+
+Titlefooter: Our Services
 
 ----
 

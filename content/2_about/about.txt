@@ -9,7 +9,7 @@ Titlepage: About Us
 Features:
 
 - 
-  titlecard: Happy Customers About
+  titlecard: 'Happy Customers About '
   text: >
     Tempor erat elitr rebum at clita. Diam
     dolor diam ipsum sit
@@ -68,6 +68,10 @@ Teamsubtitle: Team Member
 ----
 
 Teamtitle: Experienced Team Members
+
+----
+
+Members: 
 
 ----
 
