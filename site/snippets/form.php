@@ -25,7 +25,7 @@
       </div>
     </div>
     <div class="col-12">
-      <button class="btn btn-primary rounded-pill py-3 px-5" type="submit" name="send">Send Message</button>
+      <input class="btn btn-primary rounded-pill py-3 px-5" type="submit" name="register" value="Send Message" />
     </div>
   </div>
 </form>

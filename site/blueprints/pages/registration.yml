@@ -1,0 +1,18 @@
+title: Snippets Project
+
+sections:
+  info:
+    type: fields
+    fields:
+      Name:
+        label: Title
+        type: text
+      Email:
+        label: Text
+        type: text
+      Subjects:
+        label: Text
+        type: text
+      Message:
+        label: Text
+        type: text
