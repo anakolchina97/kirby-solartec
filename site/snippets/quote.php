@@ -11,33 +11,7 @@
           <h6 class="text-primary">Free Quote</h6>
           <h1 class="mb-4">Get A Free Quote</h1>
           <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
-          <form>
-            <div class="row g-3">
-              <div class="col-12 col-sm-6">
-                <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
-              </div>
-              <div class="col-12 col-sm-6">
-                <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
-              </div>
-              <div class="col-12 col-sm-6">
-                <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
-              </div>
-              <div class="col-12 col-sm-6">
-                <select class="form-select border-0" style="height: 55px;">
-                  <option selected>Select A Service</option>
-                  <option value="1">Service 1</option>
-                  <option value="2">Service 2</option>
-                  <option value="3">Service 3</option>
-                </select>
-              </div>
-              <div class="col-12">
-                <textarea class="form-control border-0" placeholder="Special Note"></textarea>
-              </div>
-              <div class="col-12">
-                <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Submit</button>
-              </div>
-            </div>
-          </form>
+          <?php snippet('form-big') ?>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-Name: sfdsfdsf
+Name: Anna
 
 ----
 
@@ -6,12 +6,12 @@ Email: anna.kolchina@sborkaproject.com
 
 ----
 
-Subjects: sdf
+Subjects: Lorem
 
 ----
 
-Message: sdf
+Message: Lorem
 
 ----
 
-Uuid: vY2rkze7mC9L8sq8
+Uuid: WfEuL4sfOPOnvAXt

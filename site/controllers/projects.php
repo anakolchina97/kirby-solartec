@@ -15,8 +15,8 @@ return function ($kirby, $page) {
     $data = [
       'name'    => get('name'),
       'email' => get('email'),
-      'subjects'   => get('subjects'),
-      'message' => get('message')
+      'mobile' => get('mobile'),
+      'note'   => get('note'),
     ];
 
     $rules = [
