@@ -6,7 +6,11 @@ Titlepage: Service
 
 ----
 
-Subtitleservices: Our Services 1
+Titleservices: We Are Pioneers In The World Of Renewable Energy
+
+----
+
+Subtitleservices: Our Services
 
 ----
 
@@ -22,6 +26,56 @@ Services:
     - file://xVRctwmhhUbm2AMy
   icon: fa fa-solar-panel fa-3x
   link: http://a0596957.xsph.ru/solartec/
+- 
+  titletext: Wind Turbines
+  text: >
+    Stet stet justo dolor sed duo. Ut clita
+    sea sit ipsum diam lorem diam.
+  delay: 0.3s
+  images:
+    - file://WK8iGzVWjuS4iOV5
+  icon: fa fa-wind fa-3x
+  link: http://a0596957.xsph.ru/solartec/
+- 
+  titletext: Hydropower Plants
+  text: >
+    Stet stet justo dolor sed duo. Ut clita
+    sea sit ipsum diam lorem diam.
+  delay: 0.5s
+  images:
+    - file://7cb29pL86rqaOHZr
+  icon: fa fa-lightbulb fa-3x
+  link: http://a0596957.xsph.ru/solartec/
+- 
+  titletext: Solar Panels
+  text: >
+    Stet stet justo dolor sed duo. Ut clita
+    sea sit ipsum diam lorem diam.
+  delay: 0.1s
+  images:
+    - file://DhbFG1LTGg3i3OxN
+  icon: fa fa-solar-panel fa-3x
+  link: http://a0596957.xsph.ru/solartec/
+- 
+  titletext: Wind Turbines
+  text: >
+    Stet stet justo dolor sed duo. Ut clita
+    sea sit ipsum diam lorem diam.
+  delay: 0.3s
+  images:
+    - file://Kx5uD3Zs4mVzUJ15
+  icon: fa fa-wind fa-3x
+  link: http://a0596957.xsph.ru/solartec/
+- 
+  titletext: Hydropower Plants
+  text: >
+    Stet stet justo dolor sed duo. Ut clita
+    sea sit ipsum diam lorem diam.
+  delay: 0.5s
+  images:
+    - file://yzj6a6zuibznXc6a
+  icon: fa fa-lightbulb fa-3x
+  link: ""
 
 ----
 

@@ -17,6 +17,9 @@ columns:
       pageTitleServices:
         label: Services
         type: headline
+      titleServices:
+        label: Title
+        type: text
       subtitleServices:
         label: Subtitle
         type: text
