@@ -17,11 +17,13 @@ return function ($kirby, $page) {
       'email' => get('email'),
       'mobile' => get('mobile'),
       'note'   => get('note'),
+      'service'   => get('service'),
     ];
 
     $rules = [
       'name'  => ['required'],
       'email' => ['required', 'email'],
+      'service'  => ['in' => [['1', '2', '3']]],
     ];
 
     $messages = [

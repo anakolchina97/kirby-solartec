@@ -10,7 +10,7 @@
       <input type="text" class="form-control border-0" placeholder="Your Mobile" name="mobile" style="height: 55px;">
     </div>
     <div class="col-12 col-sm-6">
-      <select class="form-select border-0" style="height: 55px;">
+      <select class="form-select border-0" style="height: 55px;" name="service">
         <option selected>Select A Service</option>
         <option value="1">Service 1</option>
         <option value="2">Service 2</option>
