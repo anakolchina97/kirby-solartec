@@ -51,25 +51,40 @@ columns:
       about:
         type: fields
         fields:
-          pageTitleAbout:
-            label: About
+          pageTitleWhy:
+            label: Why
             type: headline
-          aboutSubtitle:
+          whySubtitle:
             label: Subtitle
             type: text
-          aboutTitle:
+          whyTitle:
             label: Title
             type: text
-          aboutText:
+          whyText:
             label: Text
             type: text
-          aboutList:
+          whyItems:
+            type: structure
             label: List
-            type: list
-            marks:
-              - bold
-              - italic
-              - strike
+            fields:
+              titleText:
+                label: Title Text
+                type: text
+              text:
+                label: Text
+                type: text
+              delay:
+                label: Delay Animation
+                type: text
+              images:
+                label: Img
+                type: files
+              icon:
+                label: Icon
+                type: text
+              link:
+                label: Link
+                type: url
           aboutFiles:
             label: Img
             type: files

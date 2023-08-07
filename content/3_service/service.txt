@@ -79,19 +79,19 @@ Services:
 
 ----
 
-Aboutsubtitle: 
+Whysubtitle: Why Choose Us!
 
 ----
 
-Abouttitle: 
+Whytitle: Complete Commercial & Residential Solar Systems
 
 ----
 
-Abouttext: 
+Whytext: Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet
 
 ----
 
-Aboutlist: 
+Whyitems: 
 
 ----
 
@@ -108,6 +108,22 @@ Teamtitle:
 ----
 
 Members: 
+
+----
+
+Abouttext: Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet
+
+----
+
+Aboutlist: 
+
+----
+
+Abouttitle: Complete Commercial & Residential Solar Systems 1
+
+----
+
+Aboutsubtitle: Why Choose Us! 1
 
 ----
 
@@ -130,3 +146,7 @@ Titlefooter: Our Services
 ----
 
 Uuid: w8RqFeCK4DTNJw2N
+
+----
+
+Items: 
